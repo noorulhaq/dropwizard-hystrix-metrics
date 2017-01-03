@@ -8,7 +8,7 @@ import com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherCommand;
 import com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisherThreadPool;
 
 /**
- * Created by husainbasrawala on 1/2/17.
+ * Created by noor on 1/2/17.
  */
 public class DropWizardMetricsPublisher extends HystrixMetricsPublisher{
 

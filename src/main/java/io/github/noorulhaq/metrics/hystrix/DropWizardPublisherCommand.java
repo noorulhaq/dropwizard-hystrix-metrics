@@ -1,7 +1,7 @@
 package io.github.noorulhaq.metrics.hystrix;
 
 /**
- * Created by husainbasrawala on 1/2/17.
+ * Created by noor on 1/2/17.
  */
 
 import com.codahale.metrics.Gauge;
