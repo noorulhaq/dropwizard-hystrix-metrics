@@ -1,6 +1,6 @@
 #Dropwizard Hystrix Metrics
 
-A library that captures hystrix circuit breaker metrics into provided metrics registry.
+A library that captures hystrix circuit breaker metrics in provided metrics registry.
 
 ## Getting it
 
