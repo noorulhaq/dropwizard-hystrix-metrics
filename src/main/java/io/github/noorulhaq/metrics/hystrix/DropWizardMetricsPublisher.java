@@ -1,4 +1,4 @@
-package com.noor.dropwizard.metrics.hystrix;
+package io.github.noorulhaq.metrics.hystrix;
 
 import com.codahale.metrics.MetricRegistry;
 import com.netflix.hystrix.*;

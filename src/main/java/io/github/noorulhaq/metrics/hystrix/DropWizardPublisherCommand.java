@@ -1,4 +1,4 @@
-package com.noor.dropwizard.metrics.hystrix;
+package io.github.noorulhaq.metrics.hystrix;
 
 /**
  * Created by husainbasrawala on 1/2/17.
