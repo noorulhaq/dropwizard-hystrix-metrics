@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.noorulhaq</groupId>
-  <artifactId>metrics-hystrix</artifactId>
+  <artifactId>hystrix-metrics</artifactId>
   <version>1.1.6.RELEASE</version>
   <packaging>jar</packaging>
 
-  <name>dropwizard-metrics-hystrix</name>
+  <name>dropwizard-hystrix-metrics</name>
   <description>A library that captures hystrix circuit breaker metrics into provided metrics registry</description>  
   <url>http://maven.apache.org</url>
 
