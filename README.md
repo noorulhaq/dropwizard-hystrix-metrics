@@ -25,5 +25,33 @@ A library that captures hystrix circuit breaker metrics in provided metrics regi
 	</dependency>
 ```
 
+## Setup
+
+Add below lines in your application bootstrap process.
+
+```java
+HystrixPlugins.reset();
+			HystrixPlugins.getInstance().registerMetricsPublisher(new DropWizardMetricsPublisher(metricRegistry))
+```
+
+### Sample Spring Boot Configuration 
+
+```java
+
+	@Configuration
+	@EnableMetrics
+	class MetricsConfiguration extends MetricsConfigurerAdapter{
+
+		@Autowired
+		private MetricRegistry metricRegistry;
+
+		@PostConstruct
+		private void onStartup(){
+			HystrixPlugins.reset();
+			HystrixPlugins.getInstance().registerMetricsPublisher(new DropWizardMetricsPublisher(metricRegistry));
+		}
+	}
+```	
+
 -------------------------------------
 _Licensed under [Apache Software License 2.0](www.apache.org/licenses/LICENSE-2.0)_
