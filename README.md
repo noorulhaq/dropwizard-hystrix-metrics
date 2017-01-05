@@ -31,7 +31,7 @@ Add below lines in your application bootstrap process.
 
 ```java
 HystrixPlugins.reset();
-			HystrixPlugins.getInstance().registerMetricsPublisher(new DropWizardMetricsPublisher(metricRegistry))
+HystrixPlugins.getInstance().registerMetricsPublisher(new DropWizardMetricsPublisher(metricRegistry))
 ```
 
 ### Sample Spring Boot Configuration 
